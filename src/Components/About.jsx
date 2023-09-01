@@ -73,7 +73,7 @@ const About = () => {
         }}
       >
         <h2>About Myself</h2>
-        <p className="large">{description}</p>
+        <p className="small">{description}</p>
         <hr />
         <ul
           style={{
@@ -91,6 +91,7 @@ const About = () => {
         <hr />
         <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
       </div>
+      
     </section>
   );
 };

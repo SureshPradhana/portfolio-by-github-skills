@@ -8,6 +8,7 @@
 import React from "react";
 import arrowSvg from "../images/down-arrow.svg";
 import PropTypes from "prop-types";
+import "./YourComponent.css"; // Import your CSS file
 
 /**
  * Home background image
@@ -26,9 +27,9 @@ const imageAltText = "Adult female in office setting leaning against a glass wal
 
 const Home = ({ name, title }) => {
   return (
-    <section id="home" className="min-height">
+    <section id="home" className="min-height padding">
       {/* <img className="background" src={image} alt="" /> */}
-      <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
+      <div className="responsive-container" style={{ padding: "4rem", margin: "4rem auto" }}>
         <h1>{name}</h1>
         <h2>{title}</h2>
       </div>

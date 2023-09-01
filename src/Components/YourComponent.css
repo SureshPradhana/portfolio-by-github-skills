@@ -1,0 +1,34 @@
+/* YourComponent.css */
+/* position: "absolute", top: "5rem", left: "2rem", width: "17rem"  */
+.responsive-container {
+    position: absolute;
+    top: 5rem; /* Adjust the top position as needed */
+    left: 2rem;
+    width: auto; /* By default, take full width */
+    padding: 1rem; /* Add some padding for better mobile readability */
+  }
+  
+  h1 {
+    font-size: 8rem; /* Adjust the font size as needed for mobile */
+  }
+  
+  h2 {
+    font-size: 1.5rem; /* Adjust the font size as needed for mobile */
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    .responsive-container {
+      top: 10rem; /* Adjust the top position for mobile */
+      width: auto; /* Allow content to determine width */
+      left: 0rem; /* Adjust left position for mobile */
+    }
+  
+    h1 {
+      font-size: 4rem; /* Adjust font size for smaller screens */
+    }
+  
+    h2 {
+      font-size: 1.2rem; /* Adjust font size for smaller screens */
+    }
+  }
