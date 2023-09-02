@@ -27242,18 +27242,12 @@ const About = ()=>{
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                    style: {
-                        textAlign: "left",
-                        columns: 2,
-                        fontSize: "1.25rem",
-                        margin: "2rem 3rem",
-                        gap: "3rem"
-                    },
+                    className: "list-style",
                     children: skillsList.map((skill)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: skill
                         }, skill, false, {
                             fileName: "src/Components/About.jsx",
-                            lineNumber: 88,
+                            lineNumber: 80,
                             columnNumber: 13
                         }, undefined))
                 }, void 0, false, {
@@ -27263,7 +27257,7 @@ const About = ()=>{
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                     fileName: "src/Components/About.jsx",
-                    lineNumber: 91,
+                    lineNumber: 83,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27273,7 +27267,7 @@ const About = ()=>{
                     children: detailOrQuote
                 }, void 0, false, {
                     fileName: "src/Components/About.jsx",
-                    lineNumber: 92,
+                    lineNumber: 84,
                     columnNumber: 9
                 }, undefined)
             ]
@@ -28700,7 +28694,7 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./YourComponent.css":"1p8sM"}],"b5nCi":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","./YourComponent.css":"1p8sM","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"b5nCi":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"1p8sM":[function() {},{}],"lCaEt":[function(require,module,exports) {
@@ -28776,11 +28770,7 @@ const Portfolio = ()=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                style: {
-                    display: "flex",
-                    flexDirection: "row",
-                    paddingTop: "3rem"
-                },
+                className: "flex-box",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "container",
                     children: projectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {

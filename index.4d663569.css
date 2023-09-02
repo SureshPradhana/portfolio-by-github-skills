@@ -123,6 +123,34 @@ img.socialIcon {
   width: 30px;
 }
 
+.list-style {
+  text-align: left;
+  columns: 2;
+  gap: 3rem;
+  margin: 2rem 3rem;
+  font-size: 1.25rem;
+}
+
+.flex-box {
+  flex-direction: row;
+  padding-top: 3rem;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .list-style {
+    margin: 2rem 0;
+    font-size: 18px;
+  }
+
+  .container {
+    grid-gap: 20px;
+    grid-template-columns: auto;
+    margin: 20px auto;
+    display: grid;
+  }
+}
+
 .responsive-container {
   width: auto;
   padding: 1rem;
