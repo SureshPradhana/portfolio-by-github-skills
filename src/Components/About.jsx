@@ -75,7 +75,7 @@ const About = () => {
         <h2>About Myself</h2>
         <p className="small">{description}</p>
         <hr />
-        <ul
+        <ul className="list-style"
           style={{
             textAlign: "left",
             columns: 2,
